@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/03682ad122.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()" style="color: #ffffff;"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()" style="color: #ffffff;"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1><span>David</span> Dusseljee</h1>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- About me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pexels-kevin-ku-577585.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>About</span> me</h1>
+                    <p>In deze introductie zal ik bijzonder veel vertellen over mijzelf.
+                        Dit doe ik doorgaans niet zo uitgebreid maar ik ga een poging wagen.
+                        Ik ben student op het Alfa-college en ik doe de opleiding Software Developer.
+                        Enkele kenmerken van mijn werk zijn creatief inzicht, doorzettingsvermogen en vastberadenheid.
+                        Als ik een doel voor ogen heb dan doe ik er alles aan om het te bereiken.
+                        Ik ben stressbestendig en ik kan onder druk presteren ook kan ik omgaan met andere mensen.
+                        Afspraken die ik maak kom ik na.
+                        Ik ben goed in het analyseren van obstakels en problemen en wat ik moet doen om ze snel en
+                        gecontroleerd op te lossen.
+                        Ik kan in een team werken, Daarnaast ben ik ook bijzonder bescheiden! Mijn specialiteit is dat
+                        ik technisch ben en dat ik kan programmeren.
+                        Enkele talen waar in ik kan programmeren zijn: HTML, CSS, JavaSctipt, java en C </p>
+
+                    <div class="tabtitle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Building websites/programs</li>
+                            <li><span>Website Development</span><br>Building websites with JavaSctipt</li>
+                            <li><span>App Development</span><br>Building apps/programs with c# and Java</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>kotlin </span><br>I have Experience in Kotlin.
+                                Kotlin is an open-source, statistically typed programming language that's designed to
+                                work on almost any platform, principally Android, JVM, JavaScript and Native. </li>
+
+                            <li><span>App development</span><br>building programs C# and Java</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>study</span><br>Software Development</li>
+                            <li><span>kotlin jetbrains educational course</span><br> study in kotlin with java mostly
+                                for Andriod<br>
+                            </li>
+                            <!-- <li><span>swift</span><br>learning in swift for apps and programs for IOS</li> -->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>programming</h2>
+                    <p> As a student in software developement i have had alot of Experience in coding over my study of 4
+                        years. i have
+                        made several programs and websites if you want to see wich go to the "projects" section.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App development/design</h2>
+                    <p> I have made small programs using Kotlin. In the future i want to build apps on the andriod and
+                        ios app store</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web development</h2>
+                    <p> With HTML 5, CSS and JavaScript i have made several websites solo but also in group projects</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="worl-list">
+                <div class="work">
+                    <img src="images/pexels-kevin-ku-577585.jpg" alt="">
+                    <div class="layer">
+                        <h3>Reken website</h3>
+                        <p>Reken website die sommen oplost.</p>
+                        <a href="#"><i class="material-symbols-outlined">
+                                arrow_outward
+                            </i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Schermafbeelding 2024-03-04 125427.png" alt="">
+                    <div class="layer">
+                        <h3>Sudoku</h3>
+                        <p> Handbuild sudoku</p>
+                        <a href="#"><i  class="material-symbols-outlined">
+                            arrow_outward </i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Schermafbeelding 2024-02-26 160906.png" alt="">
+                    <div class="layer">
+                        <h3>HAAIMAN</h3>
+                        <p>"HAAIMAN" is a web Game i developed for my study. The core of the game is "hangman" but i
+                            made it a little more unique.</p>
+                        <a href="./WebGame/HAAIMAN/"><i  class="material-symbols-outlined">
+                            arrow_outward</i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ''''''''contact''' -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane" style="color: #FFD700;"></i>conatc@example</p>
+                    <p> <i class="fa-solid fa-phone" style="color: #FFD700;"></i>231354666</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-android"></i></a>
+                    </div>
+                    <!-- <a href="images/mypdfhere" download class="btn btn2">Download my CV here</a> -->
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © D.Duss. Made with visual studio code.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabContents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+        // ----------------------- contact-------------
+
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
