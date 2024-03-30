@@ -23,7 +23,9 @@ body {
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 10px 20px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 nav {
@@ -440,6 +442,12 @@ nav .fa-solid {
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/pexels-david-yu-4261547.jpg);
+    }
+    .container{
+        
+    }
+    .services-list div {
+        padding:20px;
     }
 
     .header-text {
