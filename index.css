@@ -238,6 +238,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    background-color: #262626;
 }
 
 .work img {
@@ -341,8 +342,11 @@ nav ul li a:hover::after {
 
 .btn:hover {
     background: #FFD700;
+    color: #000;
+    
 
 }
+
 
 /* contact  */
 
@@ -434,6 +438,7 @@ form btn2 {
     margin-top: 20px;
 }
 
+
 /* css for responsive */
 nav .fa-solid {
     display: none;
@@ -448,17 +453,19 @@ nav .fa-solid {
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/pexels-david-yu-4261547.jpg);
+        height: inherit;
+
+
     }
-    .container{
-        
+    .header-text{
+        margin-top:20% ;
+        margin-bottom: 60%;
+        font-size: 16px;
     }
+    
+    
     .services-list div {
         padding:20px;
-    }
-
-    .header-text {
-        margin-top: 100%;
-        font-size: 16px;
     }
 
     .header-text h1 {
