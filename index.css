@@ -460,7 +460,7 @@ nav .fa-solid {
     }
     .header-text{
         margin-top:15% ;
-        margin-bottom: 35%;
+        margin-bottom: 90%;
         font-size: 16px;
     }
    
@@ -539,4 +539,22 @@ nav .fa-solid {
     }
 
 }
+}
+
+
+
+
+@media only screen and (max-width: 740px) {
+    .header-text{
+        margin-top:15% ;
+        margin-bottom: 70%;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 915px) {
+    .header-text{
+        margin-top:15% ;
+        margin-bottom: 90%;
+        font-size: 16px;
+    }
 }
