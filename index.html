@@ -96,7 +96,7 @@
         <div class="container">
             <h1 class="sub-title">My services</h1>
             <div class="services-list">
-                <div ontouchstart="myFunction(event)" ontouchend="myFunction2(event)">
+                <div class="servicesForColor" ontouchstart="myFunction(event)" ontouchend="myFunction2(event)">
 
                     <i class="fa-solid fa-terminal"></i>
                     <h2>programming</h2>
@@ -217,9 +217,6 @@
         // ----------------------- contact-------------
 
 
-    </script>
-    <script>
-
         var sidemenu = document.getElementById("sidemenu")
 
 
@@ -230,11 +227,12 @@
             sidemenu.style.right = "-200px";
         }
         function myFunction(event) {
-            element.style.color = "#FFD700";
+            document.getElementsByClassName("servicesForColor").style.color = "#FFD700";
 
         }
         function myFunction2(event) {
-            element.style.color = "#262626";
+            
+            document.getElementsByClassName("servicesForColor").style.color = "#262626";
 
         }
 
