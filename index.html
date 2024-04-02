@@ -96,7 +96,7 @@
         <div class="container">
             <h1 class="sub-title">My services</h1>
             <div class="services-list">
-                <div>
+                <div ontouchmove="myFunction(event)">
                     
                     <i class="fa-solid fa-terminal"></i>
                     <h2>programming</h2>
@@ -227,6 +227,13 @@
         function closemenu() {
             sidemenu.style.right = "-200px";
         }
+
+    </script>
+    <script>
+       function myFunction(event){
+        element.style.color = "#FFD700";
+
+       }
     </script>
 
 </body>
