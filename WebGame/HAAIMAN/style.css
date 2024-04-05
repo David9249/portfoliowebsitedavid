@@ -183,6 +183,8 @@ body {
 /* responsive code voor kleine schermen */
 @media (max-width: 782px) {
     .container {
+        height: 600px;
+        width: 350px;
         flex-direction: column;
         padding: 30px 15px;
         align-items: center;
@@ -194,6 +196,14 @@ body {
 
     .haaiman-box h1 {
         display: none;
+    }
+    .keyboard{
+        margin-right: 10%;
+        margin-left: 7%;
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 320px;
     }
 
 
