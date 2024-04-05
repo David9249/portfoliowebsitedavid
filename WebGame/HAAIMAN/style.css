@@ -183,12 +183,33 @@ body {
 /* responsive code voor kleine schermen */
 @media (max-width: 782px) {
     .container {
+        
+        
         margin-top: 20%;
         height: 600px;
         width: 350px;
         flex-direction: column;
         padding: 30px 15px;
         align-items: center;
+    }
+    .container2{
+        display: flex;
+        align-items: center;
+    }
+    .word-display{
+        margin-right: 10%;
+    }
+    .container2 .hint-text{
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+
+    }
+    .container2 .geusses-text{
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+
     }
 
     .haaiman-box img {
@@ -199,12 +220,17 @@ body {
         display: none;
     }
     .keyboard{
+        
         margin-right: 10%;
         margin-left: 7%;
         display: flex;
         align-items: center;
         height: 200px;
-        width: 320px;
+        width: 300px;
+    }
+    .keyboard button {
+        padding: 7px;
+        width: calc(100% / 8 - 3px);
     }
 
 
