@@ -183,6 +183,7 @@ body {
 /* responsive code voor kleine schermen */
 @media (max-width: 782px) {
     .container {
+        margin-top: 20%;
         height: 600px;
         width: 350px;
         flex-direction: column;
