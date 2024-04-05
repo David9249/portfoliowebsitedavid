@@ -104,7 +104,8 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    width: 100%;
+    height: 95%;
+    width: 95%;
     border-radius: 5px;
 }
 
@@ -526,6 +527,12 @@ nav .fa-solid {
 
         #sidemenu li a {
             color: #000;
+        }
+        .about-col-1 {
+            flex-basis: 5%;
+        
+        }
+
         }
 
 
