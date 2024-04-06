@@ -504,6 +504,9 @@ nav .fa-solid {
         grid-gap: 10px;
 
     }
+    .about-col-1{
+        margin-left: 4.5%;
+    }
 
     @media only screen and (max-width: 600px) {
         #header {
@@ -529,7 +532,11 @@ nav .fa-solid {
             color: #000;
         }
         .about-col-1 {
-            flex-basis: 5%;
+            /* flex-basis: 5%; */
+            display: flex;
+            margin-left: 4.5%;
+            
+
         
         }
 
@@ -614,6 +621,9 @@ nav .fa-solid {
         margin-bottom: 80%;
         font-size: 16px;
     }
+    .about-col-1{
+        margin-left: 4.5%;
+    }
 }
 
 @media only screen and (max-width: 915px) {
@@ -621,5 +631,8 @@ nav .fa-solid {
         margin-top: 15%;
         margin-bottom: 90%;
         font-size: 16px;
+    }
+    .about-col-1{
+        margin-left: 4.5%;
     }
 }
