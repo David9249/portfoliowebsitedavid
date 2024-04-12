@@ -232,20 +232,12 @@ const wordList = [
         hint: "Depart Quickly."
     },
     {
-        word: "kimchaewon",
-        hint: "K-pop ster uit LE SERRAFIM"
-    },
-    {
         word: "flabbergasted",
         hint: "you use this word when you are schocked or greatly suprised."
     },
     {
         word: "illusion",
         hint: "A false perception or belief; a deceptive appearance or impression."
-    },
-    {
-        word: "jetdiff",
-        hint: "what i say to milan when im better at jett then him!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!."
     },
     {
         word: "eureka",
