@@ -497,6 +497,14 @@ form btn2 {
 nav .fa-solid {
     display: none;
 }
+.logo{
+    width: 5%;
+    height: 5%;
+}
+.copyright p img{
+    height: 2%;
+    width: 2%;
+}
 
 @media only screen and (max-width: 1200px) {
     .services-list {
