@@ -304,7 +304,6 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    /* background: linear-gradient(#ffd90000, #ffd900c1); */
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -316,9 +315,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
-    /* transition: height 0.5s; */
-    /* transition: 0.5s; */
+    font-size: 14px; 
 }
 
 .layer:hover {
@@ -493,7 +490,7 @@ form btn2 {
 }
 
 
-/* css for responsive */
+
 nav .fa-solid {
     display: none;
 }
@@ -505,6 +502,7 @@ nav .fa-solid {
     height: 2%;
     width: 2%;
 }
+/* css for responsive */
 
 @media only screen and (max-width: 1200px) {
     .services-list {

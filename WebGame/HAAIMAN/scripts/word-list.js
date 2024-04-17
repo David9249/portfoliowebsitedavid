@@ -225,7 +225,7 @@ const wordList = [
     },
     {
         word: "sea",
-        hint: "water"
+        hint: "water in an open big space"
     },
     {
         word: "skedaddle",
