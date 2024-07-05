@@ -1,0 +1,60 @@
+@media only screen and (max-width: 800px) {
+
+    /* body {
+    
+    max-width: 800px;
+    
+    } */
+
+    p, h3{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .iphoneImage, .item2{
+display: none;
+    }
+
+
+    .iphoneImage_hidden{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 240px;
+        height: 400px;
+        align-items: center;
+    }
+    
+    .item2_hidden{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .item1,.item3, .item4{
+        grid-column: 1 / span 5;
+        text-align: left;
+    }
+}
+    
+
+    
+    
+ 
+    
+     
+
+
+
+
+
+
+
+
+
